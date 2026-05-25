@@ -1,0 +1,303 @@
+
+*{
+    margin : 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+
+/* header */
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color : white;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 56px;
+    width: 100px;
+}
+
+.logo{
+    position: absolute;
+    background-image: url(amazon_logo.jpg);
+    height: 56px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border{
+    border : 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 */
+
+.add-first{
+   color : #CCCCCC;
+   font-size: 0.85rem;
+   margin-left: 15px;
+}
+
+.add-second{
+   font-size: 1rem;
+   margin-left: 3px;
+   /* display: inline-block; it is also correct*/
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width : 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #F3F3F3;
+    width:50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border:none;
+}
+
+.search-input{
+    /* khali bacha hua area is been get to search */
+    width:100%;
+    font-size: 1rem;
+    border : none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 187, 0);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color : #0F1111;
+}
+
+.nav-search:hover{
+    border : 2px solid orange;
+}
+
+/* box 4 , box5 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size : 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+
+.panel{
+    display: flex;
+    height : 40px;
+    background-color: #222f3d;
+    color : white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-ops p{
+   display: inline;
+   font-size: 0.85rem;
+   margin-left : 15px;
+}
+
+
+.panel-ops{
+    width : 70%;
+}
+
+
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* header completed */
+
+/* hero section */
+
+.hero-section{
+    height: 380px;
+    background-image: url(hero-image.jpg );
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: white;
+    color : black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-section .hero-message a{
+    color : #007185;
+}
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    width : 23%;
+    height: 400px;
+    background-color: white;
+    padding : 20px 0px 15px;
+    margin-top:15px;
+}
+
+
+.box-image{
+    height:300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right : 1rem;
+}
+
+.box-content p{
+    color : #007185;
+}
+
+/* footer */
+
+footer{
+    margin-top : 15px;
+}
+
+
+.foot-panel1{
+    background-color:#37475a;
+    color : white;
+    height: 19px;
+    padding-top : 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+  background-color: #222f3d;
+  color : white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+ul{
+  margin-top:20px;
+}
+
+
+.foot-panel2 ul a{
+    text-decoration: none;
+    color : #dddddd;
+    display: block;
+    font-size: 0.85rem;
+    margin-top:10px;
+}
+
+
+.foot-panel3{
+    height: 70px;
+    background-color: #222f3d;
+    color : white;
+    border-top : 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 .foot-logo{
+    background-image: url(amazon_logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width : 100px;
+}
+
+.foot-panel4{
+    background-color : #131A22;
+    color:#DDDDDD;
+    height: 45px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    font-size : 0.8rem;
+    text-align: center;
+}
+
+.pages{
+    font-size : 0.8rem;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size : 0.8rem;
+    text-align: center;
+}
